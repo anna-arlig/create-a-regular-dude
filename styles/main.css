@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Minecraft;
+    src: url(fonts/minecraft/Minecraft.ttf);
+}
+
+*{
+    font-family: "Minecraft";
+}
+
+body {
+min-height: 98vh;
+background-image: url(/img/background.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main{
+    background-color: rgb(255, 255, 255, 0.50);
+    height: 85vh;
+    width: 1196px;
+    box-shadow: 8px 5px 8px -3px rgba(0,0,0,0.58); 
+}
+
+.header-section{
+    display: flex;
+    max-width: 700px;
+}
+
+#beer-img{
+    margin: 40px;
+}
+
+h1{
+    font-size: 64px;
+    margin-top: 60px;
+}
+
+.dude-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 371px;  
+    margin-top: 40px;
+}
+
+#the-dude{
+   
+}
+
+.this-dude{
+    width: 371px;
+    height: 97px;
+    background-color: #FFC107;
+    border: 5px solid #5F4909;
+    margin: 20px;
+    margin-left: 30px;
+}
+
+.dude-description{
+    text-align: center;
+    font-size: 18px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.dude-info{
+
+}
+
